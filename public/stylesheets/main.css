@@ -1,0 +1,52 @@
+#header {
+    height: 100px;
+    margin-top: 15px;
+}
+
+#main {
+    height: 100px;
+    margin: 0;
+    padding: 5px;
+}
+
+#footer {
+    height: 100px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font: "Geneva";
+    font-size: 9pt;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+    color: darkgray;
+}
+
+.a {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-position: top left;
+}
+
+.c {
+    width: 50%;
+    float: right;
+    background-position: top left;
+}
+
+.n {
+    width: 100%;
+    float: left;
+    background-position: top left;
+}
+
+li {
+    float: left;
+    width: 20%;
+}
