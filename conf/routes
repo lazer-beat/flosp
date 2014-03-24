@@ -5,20 +5,20 @@
 # Home page
 GET         /                    controllers.Application.index()
 
-# login
+# Login page
 GET         /login               controllers.Authorization.login()
 POST        /login               controllers.Authorization.authenticate()
 
-# news
+# News page
 GET         /newsletter          controllers.News.newsletter()
 
-# about
+# About page
 GET         /about               controllers.Application.about()
 
-# contacts
+# Contacts page
 GET         /contacts            controllers.Application.contacts()
 
-# orders
+# Orders page
 GET        /orders               controllers.Application.orders()
 
 # Map static resources from the /public folder to the /assets URL path
