@@ -1,11 +1,9 @@
 package models;
 
+import play.data.validation.Constraints;
 import play.db.ebean.Model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * Created by Алмаз on 24.03.14.
@@ -17,9 +15,10 @@ public class Picture extends Model {
     @Id
     public Long id;
 
+    @Constraints.Required
     public String name;
 
-    @OneToMany
+    @ManyToOne
     public NewsLetter newsLetter;
 
 
