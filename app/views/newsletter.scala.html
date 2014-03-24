@@ -1,0 +1,14 @@
+@(news: List[NewsLetter]) @main("Our List of NewsLetters") {
+
+    <h1>People</h1>
+
+    <ul>
+        <div class="row-fluid">
+        @for(newses <- news) {
+            <div class="span12">
+                <h2>@newses.header</h2>
+            </div>
+        }
+        </div>
+    </ul>
+}
